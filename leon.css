@@ -1,0 +1,148 @@
+*{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+body{
+font-family: 'Work Sans', sans-serif;
+}
+/*.container{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+ 
+}*/
+/*small*/
+/*@media(min-width: 768px){
+   .container{
+      width: 750px;
+   }
+}*/
+/*medium*/
+/*@media(min-width: 992px){
+   .container{
+      width: 970px;
+   }
+}*/
+/*larger*/
+/*@media(min-width: 1200px){
+   .container{
+      width: 1170px;
+   }
+}*/
+/*starting headers*/
+/*.header{
+   padding: 20px;
+}*/
+.header .container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: gray;
+}
+.header .container .food{
+   padding: 20px;
+}
+.header  .links{
+   position: relative;
+}
+.header .links .icon{
+   width: 30px;
+   border: 1px solid black;
+   padding: 2px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-end;}
+
+.header .links .icon span{
+   background-color: #333;
+   margin-bottom: 5px;
+   height: 2px;
+
+}
+.header .links ul{
+   list-style: none;
+   margin: 0px;
+   padding: 0px;
+   position: absolute;
+   right: 0px;
+   background-color: rgba(236, 224, 224, 0.966);
+   min-width: 200px;
+   top: calc(100% + 15px);
+   /*display: none;*/
+}
+/*.header .links ul::before {
+   content: " ";
+   border-width: 10px;
+   border-style: solid;
+   border-color: transparent transparent #f6f6f6 transparent;
+   position: absolute;
+   right: 5px;
+   top: -20px;
+}*/
+.header .links ul li a{
+   display: block;
+   padding: 15px;
+   text-decoration: none;
+   transition: 0.3s;
+   color: #333;
+}
+.header .links ul li a:hover{
+   padding-left: 25px;
+}
+.header .links:hover ul{
+   display: block;
+}
+.header .links li:not(:last-child) a{
+   border: 1px solid #ddd;
+}
+.header .links:hover .icon span:nth-child(2){
+   width: 100%;
+}
+.header .links .icon span:first-child{
+   width: 100%;
+}
+.header .links .icon span:nth-child(2){
+   width: 100%;
+   /*transition: 0.3s;*/
+}
+.header .links .icon span:last-child{
+   width: 100%;
+}
+
+.head{
+   position: absolute;
+   top: 200px;
+   right: 100px;
+   left: 600px;
+   bottom: 50px;
+}
+.cards{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   margin: 250px 10px 10px 10px ;
+}
+.container1{
+   background-color: #666;
+   border: 2px solid black;
+   position: relative;
+   margin: 10px 10px 10px 10px ;
+   flex-direction: row;
+   width: 400px;
+}
+.head1{
+   text-align: center;
+   color: black;
+}
+
+.head2{
+   text-align: center;
+   color: black;
+}
+.head3{
+   text-align: center;
+   color: black;
+}
